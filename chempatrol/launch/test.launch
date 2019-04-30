@@ -1,0 +1,10 @@
+<launch>
+    
+    <arg name="world_file"  default="$(find chempatrol)/worlds/simplant.world"/>
+    
+    <!-- launch the launch files -->
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch" pass_all_args="true"/>
+
+    
+    
+</launch>

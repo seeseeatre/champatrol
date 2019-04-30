@@ -1,0 +1,10 @@
+<launch>
+    <param name="route" value="/home/han/catkin_ws/src/chempatrol/scripts/route.yaml" />
+    <param name="img_path" value="/home/han/catkin_ws/src/chempatrol/data/" />
+    <!-- start turtlesim -->
+    <node pkg="chempatrol" type="patrol.py" name="patroler1" output="screen">
+        
+    </node>
+    
+    
+</launch>
